@@ -1,0 +1,58 @@
+{
+	"info": {
+		"_postman_id": "7bf17eb3-4025-4a16-b1cd-dc71a7cc50f9",
+		"name": "LocalHost Testing",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "51562363",
+		"_collection_link": "https://ss-medyulyanov-6154610.postman.co/workspace/%25D0%25A1%25D0%25B2%25D1%258F%25D1%2582%25D0%25BE%25D1%2581%25D0%25BB%25D0%25B0%25D0%25B2-%25D0%259C%25D0%25B5%25D0%25B4%25D1%258E%25D0%25BB%25D1%258F%25D0%25BD%25D0%25BE%25D0%25B2's-Workspace~8dec0f13-7db7-4028-8380-6101558e2c1c/collection/51562363-7bf17eb3-4025-4a16-b1cd-dc71a7cc50f9?action=share&source=collection_link&creator=51562363"
+	},
+	"item": [
+		{
+			"name": "GET posts",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "POST posts",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/posts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE post",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/posts/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"posts",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
